@@ -118,6 +118,15 @@ iframe {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
 /* Footer */
 footer {
     background: #d43f3f;
@@ -157,6 +166,10 @@ footer p {
 
     iframe {
         height: 300px;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
 
